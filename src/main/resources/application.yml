@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  context-path: /
+
+spring:
+  profiles:
+    active: #spring.profiles.active#
+  freemarker:
+    template-loader-path=classpath:/templates
